@@ -1,4 +1,4 @@
-# 제곱근까지의 숫자로 나누어보기
+# 프로그래머스 고득점 kit 완전탐색 소수찾기 level 2
 # 결과 : 정답
 from itertools import permutations
 
@@ -26,3 +26,7 @@ def solution(numbers):
                 
     answer = len(list(set(answer_list)))
     return answer
+
+"""
+제곱근까지의 숫자로 나누어보기
+"""

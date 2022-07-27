@@ -1,4 +1,4 @@
-# 에라토스테네스 체를 사용한 문제풀이
+# 프로그래머스 고득점 kit 완전탐색 소수찾기 level 2
 # 결과 : 시간초과
 from itertools import permutations
 
@@ -29,3 +29,8 @@ def solution(numbers):
                 
     answer = len(list(set(temp)))
     return answer
+
+"""
+풀이
+에라토스테네스 체를 사용한 문제풀이
+"""
