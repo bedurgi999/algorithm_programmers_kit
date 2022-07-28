@@ -3,8 +3,8 @@
 def solution(brown, yellow):
     answer = []
     
-    if yellow == 1:
-        return [3, 3]
+    if yellow == 3:
+        return [yellow+2, 3]
     
     for i in range(1, yellow // 2 + 1):
         if yellow % i != 0:
